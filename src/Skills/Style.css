@@ -1,0 +1,75 @@
+.skills-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .skills-section h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #00bcd4;
+  }
+
+  .skill {
+    margin-bottom: 30px;
+  }
+
+  .skill-name {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+
+  .progress-bar {
+    background-color: #333;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 25px;
+  }
+
+  .progress {
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #fff;
+    width: 0;
+    animation: fillBar 2s ease-in-out forwards;
+  }
+
+  @keyframes fillBar {
+    from {
+      width: 0;
+    }
+  }
+
+  /* Specific colors and widths */
+  .react {
+    width: 85%;
+    background-color: #61dafb;
+  }
+
+  .c {
+    width: 90%;
+    background-color: #007ACC;
+  }
+
+  .cpp {
+    width: 85%;
+    background-color: #f34b7d;
+  }
+
+  .node {
+    width: 80%;
+    background-color: #68a063;
+  }
+
+  .express{
+    width: 75%;
+    background-color: #888888;
+  }
+
+  .mongo {
+    width: 70%;
+    background-color: #4db33d;
+  }
