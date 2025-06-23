@@ -45,31 +45,31 @@
 
   /* Specific colors and widths */
   .react {
-    width: 85%;
+    width: 45%;
     background-color: #61dafb;
   }
 
   .c {
-    width: 90%;
+    width: 60%;
     background-color: #007ACC;
   }
 
   .cpp {
-    width: 85%;
+    width: 60%;
     background-color: #f34b7d;
   }
 
   .node {
-    width: 80%;
+    width: 40%;
     background-color: #68a063;
   }
 
   .express{
-    width: 75%;
+    width: 65%;
     background-color: #888888;
   }
 
   .mongo {
-    width: 70%;
+    width: 30%;
     background-color: #4db33d;
   }
