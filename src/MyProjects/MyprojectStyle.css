@@ -1,0 +1,11 @@
+.all-projects{
+    margin-inline: 100px;
+    gap: 10px;
+}
+
+@media (max-width:600px) {
+    .all-projects{
+        margin-inline: 30px;
+        gap: 60px;
+    }
+}

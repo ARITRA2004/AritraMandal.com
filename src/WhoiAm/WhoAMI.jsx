@@ -5,7 +5,7 @@ const WhoAMI = () => {
     <div
       className="intro-container"
       style={{
-        marginTop: "120px",
+        marginBottom:"130px",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
@@ -16,7 +16,7 @@ const WhoAMI = () => {
         gap: "40px",
       }}
     >
-      <div className="intro-text" style={{ maxWidth: "60%" }}>
+      <div className="intro-text">
         <h1 style={{ fontSize: "3rem", color: "#aaa", margin: "0" }}>
           This is,
         </h1>

@@ -1,4 +1,5 @@
 import Projects from "./Projects.js";
+import "./MyprojectStyle.css";
 
 const MyProjects = () => {
   return (
@@ -21,8 +22,8 @@ const MyProjects = () => {
           flexWrap: "wrap",
           justifyContent: "space-around",
           alignItems: "center",
-          gap: "10px",
-          marginInline: "100px",
+          // gap: "10px",
+          // marginInline: "100px",
         }}
       >
         {Projects.map((value, _) => {
