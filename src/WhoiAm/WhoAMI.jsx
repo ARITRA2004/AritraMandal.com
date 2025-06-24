@@ -5,7 +5,6 @@ const WhoAMI = () => {
     <div
       className="intro-container"
       style={{
-        marginBottom:"130px",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
