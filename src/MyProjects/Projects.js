@@ -7,7 +7,7 @@ const Projects = [
     },
     {
         id:2,
-        src:"https://www.anyviewer.com/screenshot/others/illustration/files.png",
+        src:"./fileLink.png",
         name:"File Transfer Through Links",
         tech:"React.js, Node.js, Express.js",
     },

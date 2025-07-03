@@ -27,7 +27,7 @@ const Skill = [
         id:5,
         name:"Express.js",
         nameforCss:"express",
-        progress:"65%"
+        progress:"40%"
     }
 ]
 
