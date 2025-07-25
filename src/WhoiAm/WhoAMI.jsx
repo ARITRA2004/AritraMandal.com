@@ -66,6 +66,9 @@ const WhoAMI = () => {
             </svg>
           </a>
         </div>
+        <div className="resume">
+          
+        </div>
       </div>
       <div className="intro-image">
         <img

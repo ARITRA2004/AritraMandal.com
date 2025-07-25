@@ -6,7 +6,6 @@ const Skills = () => {
     <div style={{ marginTop: "90px" }}>
       <div
         className="skill-container"
-        // style={{ marginInline: "100px"}}
       >
         <div>
           <h2 style={{ textAlign: "center", fontSize: "3rem" }}>Skills</h2>
