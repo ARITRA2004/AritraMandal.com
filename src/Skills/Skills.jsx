@@ -3,25 +3,28 @@ import "./Style.css";
 
 const Skills = () => {
   return (
-    <div style={{ marginTop: "90px" }}>
-      <div
-        className="skill-container"
-      >
+    <div style={{ marginTop: "90px"}}>
+      <div className="skill-container">
         <div>
           <h2 style={{ textAlign: "center", fontSize: "3rem" }}>Skills</h2>
         </div>
-        {Skill.map((value) => {
+        <div class="timeline">
+        {Skill.map((value, _) => {
           return (
-            <div className="skill">
-              <div className="skill-name">{value.name}</div>
-              <div className="progress-bar">
-                <div className={`progress ${value.nameforCss}`}>
-                  {value.progress}
+              <div key={value.id} className="skill-item">
+                <div className="skill-content">
+                  <div className="skill-name">
+                    {value.name}-{value.progress}
+                  </div>
+                  <div className="skill-description">{value.desc}</div>
+                  <div className="progress-bar">
+                    <div className="progress" style={{width:"100%"}}></div>
+                  </div>
                 </div>
               </div>
-            </div>
           );
         })}
+        </div>
       </div>
     </div>
   );
