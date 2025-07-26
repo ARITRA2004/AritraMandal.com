@@ -13,6 +13,7 @@ const WhoAMI = () => {
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
         borderRadius: "15px",
         gap: "40px",
+        marginTop:"120px"
       }}
     >
       <div className="intro-text">
