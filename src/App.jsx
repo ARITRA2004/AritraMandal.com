@@ -1,4 +1,3 @@
-import './App.css'
 import MyHeader from './Header/MyHeader';
 import MyFooter from './Footer/MyFooter';
 import WhoAMI from './WhoiAm/WhoAMI';
