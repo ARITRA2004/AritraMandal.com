@@ -25,7 +25,7 @@ const Projects = [
         src:"./priceCompare.png",
         name:"Price Vision",
         desc:"Its a web based application where people can buy products with less price",
-        tech:["React.js","Node.js","Express.js","MongoDB, Python"]
+        tech:["React.js","Node.js","Express.js","MongoDB", "Python"]
     }
 ]
 
