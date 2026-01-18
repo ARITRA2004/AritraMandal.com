@@ -51,6 +51,13 @@
     font-size: 0.85rem;
     margin-top: 12px;
   }
+  
+  .tech-stack > span{
+    border: 2px solid #00eaff;
+    box-shadow:
+    0 0 6px rgba(0, 234, 255, 0.6),
+    0 0 12px rgba(0, 234, 255, 0.3);
+  }
 
   .tech-stack span {
     background-color: #3a3a3a;

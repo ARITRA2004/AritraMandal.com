@@ -8,6 +8,7 @@ const MyProjects = () => {
       style={{
         marginTop: "90px",
         backgroundLinearGradient: "(135deg, #111 60%, #1f1f1f 100%)",
+        // background: "linear-gradient(135deg, #d4fc79, #96e6a1)",
       }}
     >
       <div
@@ -30,7 +31,7 @@ const MyProjects = () => {
       >
         {Projects.map((value, _) => {
           return (
-            <div class="card">
+            <div class="card"> 
               <img
                 src={value.src}
                 alt={value.src}

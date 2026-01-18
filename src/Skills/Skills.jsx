@@ -14,7 +14,7 @@ const Skills = () => {
               <div key={value.id} className="skill-item">
                 <div className="skill-content">
                   <div className="skill-name">
-                    {value.name}-{value.progress}
+                    {value.name}
                   </div>
                   <div className="skill-description">{value.desc}</div>
                   <div className="progress-bar">
