@@ -54,6 +54,25 @@
   .svgs svg:hover{
     cursor: pointer;
   }
+
+  .cv-button{
+    height: 55px;
+    width: 150px;
+    border: 2px solid #00eaff;
+    box-shadow:
+    0 0 6px rgba(0, 234, 255, 0.6),
+    0 0 12px rgba(0, 234, 255, 0.3);
+    background-color: #10a8ce;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+    font-size:large ;
+  }
+
+  .cv-button:hover{
+    cursor: pointer;  
+  }
+
   /* Responsive (optional) */
   @media (max-width: 768px) {
     .intro-container {
