@@ -32,7 +32,7 @@ const WhoAMI = () => {
           ideas into impactful digital solutions.
         </p>
         <div className="resume">
-          <a href="/Aritra_CV.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Aaritra_cv.pdf" target="_blank" rel="noopener noreferrer">
             <button className="cv-button">Here is CV</button>
           </a>
         </div>
