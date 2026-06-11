@@ -20,20 +20,20 @@ const Projects = [
         desc:"MCQ quiz app built in React with static question data. (It's work is ongoing and it should be dynamic.)",
         tech:["React.js"]
     },
-    {
-        id:4,
-        src:"./priceCompare.png",
-        name:"Price Vision",
-        desc:"Its a web based application where people can buy products with less price",
-        tech:["React.js","Node.js","Express.js","MongoDB", "Python"]
-    },
-    {
-        id:4,
-        src:"./priceCompare.png",
-        name:"Price Vision",
-        desc:"Its a web based application where people can buy products with less price",
-        tech:["React.js","Node.js","Express.js","MongoDB", "Python"]
-    }
+    // {
+    //     id:4,
+    //     src:"./priceCompare.png",
+    //     name:"Price Vision",
+    //     desc:"Its a web based application where people can buy products with less price",
+    //     tech:["React.js","Node.js","Express.js","MongoDB", "Python"]
+    // },
+    // {
+    //     id:4,
+    //     src:"./priceCompare.png",
+    //     name:"Price Vision",
+    //     desc:"Its a web based application where people can buy products with less price",
+    //     tech:["React.js","Node.js","Express.js","MongoDB", "Python"]
+    // }
 ]
 
 export default Projects;
