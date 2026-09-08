@@ -45,6 +45,13 @@ const Skill = [
         nameforCss: "mysql",
         type: "Database Management",
         icon: "https://cdn.simpleicons.org/mysql/4479A1"
+    },
+    {
+        id: 7,
+        name: "MongoDB",
+        nameforCss: "mongodb",
+        type: "NoSQL Database",
+        icon: "https://cdn.simpleicons.org/mongodb/47A248"
     }
 ];
 
