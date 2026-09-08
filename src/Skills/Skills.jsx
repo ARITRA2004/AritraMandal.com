@@ -3,30 +3,43 @@ import "./Style.css";
 
 const Skills = () => {
   return (
-    <div style={{ marginTop: "90px"}}>
-      <div className="skill-container">
-        <div>
-          <h2 style={{ textAlign: "center", fontSize: "3rem" }}>Skills</h2>
+    <section className="skill-section">
+
+            <div className="skill-heading">
+                <span className="skill-subtitle">
+                    MY EXPERTISE
+                </span>
+
+                <h1>Skills</h1>
+
+                <p>
+                    Technologies I use to build modern and scalable applications.
+                </p>
+            </div>
+
+            <div className="skill-grid">
+
+                {Skill.map((skill) => (
+    <div className="skill-card" key={skill.id}>
+
+        <div className={`skill-icon skill-${skill.nameforCss}`}>
+            <img
+                src={skill.icon}
+                alt={skill.name}
+            />
         </div>
-        <div class="timeline">
-        {Skill.map((value, _) => {
-          return (
-              <div key={value.id} className="skill-item">
-                <div className="skill-content">
-                  <div className="skill-name">
-                    {value.name}
-                  </div>
-                  <div className="skill-description">{value.desc}</div>
-                  <div className="progress-bar">
-                    <div className="progress" style={{width:"100%"}}></div>
-                  </div>
-                </div>
-              </div>
-          );
-        })}
+
+        <div className="skill-info">
+            <h2>{skill.name}</h2>
+            <p>{skill.type}</p>
         </div>
-      </div>
+
     </div>
+))}
+
+            </div>
+
+        </section>
   );
 };
 
